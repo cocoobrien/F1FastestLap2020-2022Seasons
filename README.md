@@ -12,22 +12,29 @@ LICENSE: This project is licensed under the terms of the MIT license.
 
 F1 DHL Fastest Lap Dataset: Data Types & Descriptions
   
-  Column: Dtype
-  Year: int64
+Column: Dtype
+
+Year: int64
     - Year (2020-2022) in which the recorded lap time occured. 
-  Grand Prix: object
+
+Grand Prix: object
     - Grand Prix location recorded lap time occured at. 
-  Driver: object
+
+Driver: object
     - Driver of whom is responsible and achieved the recorded lap time. 
-  Car: object
+
+Car: object
     - Formula One Car Racing Team that the driver obtained the recorded lap time on behalf of. 
-  Lap Time: float64
+
+Lap Time: float64
     - Recorded lap time in 'MM.SS' (minutes.seconds) form. 
       Ex: 1.24 --> 1 minute and 24 seconds
   
-  Conclusion: 
-    dtypes: float64(1), int64(1), object(3) 
-    There are 60 counts of all data types above. 
+CONCLUSION: 
+
+dtypes: float64(1), int64(1), object(3) 
+
+There are 60 counts of all data types above. 
  
  
 
